@@ -41,3 +41,14 @@ hr {
     border-radius: 0.5px;
     border: 1px solid var(--primary-color);
 }
+
+/** look into BEM naming conversion for CSS **/
+ 
+/** lists **/
+.list-non-bullet {
+    display:inline;
+}
+.list-item-inline {
+    display:inline;
+    padding:0.5rem;
+}
