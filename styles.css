@@ -2,6 +2,7 @@
 
 :root {
     --primary-color:#9333ea;
+    --off-white:#f3f4f6;
     --dark-gray:#6b7280;
 }
 
@@ -86,14 +87,27 @@ hr {
     display:block;
     margin:auto;
  }
- 
+
  .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
-    margin: auto;
+    text-align: center;
  }
 
  .hero .hero-heading 
  .heading-invented {
 color: var(--primary-color);
  }
+
+ /** section **/
+
+ .section {
+    padding: 2rem;
+ }
+.section h1,h3 {
+    text-align:center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
